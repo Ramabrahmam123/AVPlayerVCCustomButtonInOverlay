@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		417148E51B535F5B00129AFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417148E41B535F5B00129AFF /* AppDelegate.swift */; };
+		417148E71B535F5B00129AFF /* AVPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417148E61B535F5B00129AFF /* AVPlayerVC.swift */; };
+		417148EA1B535F5B00129AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417148E81B535F5B00129AFF /* Main.storyboard */; };
+		417148EC1B535F5B00129AFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417148EB1B535F5B00129AFF /* Images.xcassets */; };
+		417148EF1B535F5B00129AFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417148ED1B535F5B00129AFF /* LaunchScreen.xib */; };
+		417148FB1B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417148FA1B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlayTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		417148F51B535F5B00129AFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 417148D71B535F5B00129AFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417148DE1B535F5B00129AFF;
+			remoteInfo = AVPlayerVCCustomButtonInOverlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		417148DF1B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerVCCustomButtonInOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		417148E31B535F5B00129AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417148E41B535F5B00129AFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		417148E61B535F5B00129AFF /* AVPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerVC.swift; sourceTree = "<group>"; };
+		417148E91B535F5B00129AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		417148EB1B535F5B00129AFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		417148EE1B535F5B00129AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		417148F41B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerVCCustomButtonInOverlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417148F91B535F5B00129AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417148FA1B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerVCCustomButtonInOverlayTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		417148DC1B535F5B00129AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417148F11B535F5B00129AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417148D61B535F5B00129AFF = {
+			isa = PBXGroup;
+			children = (
+				417148E11B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlay */,
+				417148F71B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlayTests */,
+				417148E01B535F5B00129AFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		417148E01B535F5B00129AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				417148DF1B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlay.app */,
+				417148F41B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		417148E11B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				417148E41B535F5B00129AFF /* AppDelegate.swift */,
+				417148E61B535F5B00129AFF /* AVPlayerVC.swift */,
+				417148E81B535F5B00129AFF /* Main.storyboard */,
+				417148EB1B535F5B00129AFF /* Images.xcassets */,
+				417148ED1B535F5B00129AFF /* LaunchScreen.xib */,
+				417148E21B535F5B00129AFF /* Supporting Files */,
+			);
+			path = AVPlayerVCCustomButtonInOverlay;
+			sourceTree = "<group>";
+		};
+		417148E21B535F5B00129AFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				417148E31B535F5B00129AFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		417148F71B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				417148FA1B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlayTests.swift */,
+				417148F81B535F5B00129AFF /* Supporting Files */,
+			);
+			path = AVPlayerVCCustomButtonInOverlayTests;
+			sourceTree = "<group>";
+		};
+		417148F81B535F5B00129AFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				417148F91B535F5B00129AFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		417148DE1B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417148FE1B535F5B00129AFF /* Build configuration list for PBXNativeTarget "AVPlayerVCCustomButtonInOverlay" */;
+			buildPhases = (
+				417148DB1B535F5B00129AFF /* Sources */,
+				417148DC1B535F5B00129AFF /* Frameworks */,
+				417148DD1B535F5B00129AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVPlayerVCCustomButtonInOverlay;
+			productName = AVPlayerVCCustomButtonInOverlay;
+			productReference = 417148DF1B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		417148F31B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417149011B535F5B00129AFF /* Build configuration list for PBXNativeTarget "AVPlayerVCCustomButtonInOverlayTests" */;
+			buildPhases = (
+				417148F01B535F5B00129AFF /* Sources */,
+				417148F11B535F5B00129AFF /* Frameworks */,
+				417148F21B535F5B00129AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417148F61B535F5B00129AFF /* PBXTargetDependency */,
+			);
+			name = AVPlayerVCCustomButtonInOverlayTests;
+			productName = AVPlayerVCCustomButtonInOverlayTests;
+			productReference = 417148F41B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		417148D71B535F5B00129AFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "TapDigital Canada Inc.";
+				TargetAttributes = {
+					417148DE1B535F5B00129AFF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					417148F31B535F5B00129AFF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 417148DE1B535F5B00129AFF;
+					};
+				};
+			};
+			buildConfigurationList = 417148DA1B535F5B00129AFF /* Build configuration list for PBXProject "AVPlayerVCCustomButtonInOverlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 417148D61B535F5B00129AFF;
+			productRefGroup = 417148E01B535F5B00129AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				417148DE1B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlay */,
+				417148F31B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		417148DD1B535F5B00129AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417148EA1B535F5B00129AFF /* Main.storyboard in Resources */,
+				417148EF1B535F5B00129AFF /* LaunchScreen.xib in Resources */,
+				417148EC1B535F5B00129AFF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417148F21B535F5B00129AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		417148DB1B535F5B00129AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417148E71B535F5B00129AFF /* AVPlayerVC.swift in Sources */,
+				417148E51B535F5B00129AFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417148F01B535F5B00129AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417148FB1B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		417148F61B535F5B00129AFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417148DE1B535F5B00129AFF /* AVPlayerVCCustomButtonInOverlay */;
+			targetProxy = 417148F51B535F5B00129AFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		417148E81B535F5B00129AFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417148E91B535F5B00129AFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		417148ED1B535F5B00129AFF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417148EE1B535F5B00129AFF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		417148FC1B535F5B00129AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		417148FD1B535F5B00129AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		417148FF1B535F5B00129AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AVPlayerVCCustomButtonInOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		417149001B535F5B00129AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AVPlayerVCCustomButtonInOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		417149021B535F5B00129AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AVPlayerVCCustomButtonInOverlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVPlayerVCCustomButtonInOverlay.app/AVPlayerVCCustomButtonInOverlay";
+			};
+			name = Debug;
+		};
+		417149031B535F5B00129AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AVPlayerVCCustomButtonInOverlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVPlayerVCCustomButtonInOverlay.app/AVPlayerVCCustomButtonInOverlay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		417148DA1B535F5B00129AFF /* Build configuration list for PBXProject "AVPlayerVCCustomButtonInOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417148FC1B535F5B00129AFF /* Debug */,
+				417148FD1B535F5B00129AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417148FE1B535F5B00129AFF /* Build configuration list for PBXNativeTarget "AVPlayerVCCustomButtonInOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417148FF1B535F5B00129AFF /* Debug */,
+				417149001B535F5B00129AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417149011B535F5B00129AFF /* Build configuration list for PBXNativeTarget "AVPlayerVCCustomButtonInOverlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417149021B535F5B00129AFF /* Debug */,
+				417149031B535F5B00129AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 417148D71B535F5B00129AFF /* Project object */;
+}
